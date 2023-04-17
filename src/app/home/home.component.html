@@ -1,4 +1,4 @@
-<h1>{{'Title of'}} my {{title}}</h1>
+
 name:
 <input type="text" [(ngModel)]="patientObj.name"><br>
 {{patientObj.name}}<br>
@@ -69,16 +69,3 @@ name:           description:<br>
         </td>
     </tr>
 </table>
-
-<hr>
-<nav>
-    <ul>
-        <li><a routerLink="master">Master</a></li>
-        <li><a routerLink="home">Home</a></li>
-        <li><a routerLink="about">About</a></li>
-        <li><a routerLink="contact">Contact</a></li>
-        <li><a routerLink="services">Services</a></li>
-    </ul>
-</nav>
-
-<router-outlet></router-outlet>

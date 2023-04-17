@@ -1,0 +1,11 @@
+.mainContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.infoContainer {
+    padding: 20px;
+}
